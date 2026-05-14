@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* BEGIN PBXBuildFile */
+		DA4000012A00000100000001 /* GitHubManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000022A00000100000001 /* GitHubManagerApp.swift */; };
+		DA4000032A00000100000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000042A00000100000001 /* Models.swift */; };
+		DA4000052A00000100000001 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000062A00000100000001 /* GitHubAPI.swift */; };
+		DA4000072A00000100000001 /* GitHubAPI+Commits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000082A00000100000001 /* GitHubAPI+Commits.swift */; };
+		DA4000092A00000100000001 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40000A2A00000100000001 /* LoginView.swift */; };
+		DA40000B2A00000100000001 /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40000C2A00000100000001 /* RepoListView.swift */; };
+		DA40000D2A00000100000001 /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA40000E2A00000100000001 /* RepoDetailView.swift */; };
+		DA40000F2A00000100000001 /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000102A00000100000001 /* CodeEditorView.swift */; };
+		DA4000112A00000100000001 /* ZipManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4000122A00000100000001 /* ZipManagerView.swift */; };
+		DA4000132A00000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4000142A00000100000001 /* Assets.xcassets */; };
+/* END PBXBuildFile */
+
+/* BEGIN PBXFileReference */
+		DA4000022A00000100000001 /* GitHubManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubManagerApp.swift; sourceTree = "<group>"; };
+		DA4000042A00000100000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DA4000062A00000100000001 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		DA4000082A00000100000001 /* GitHubAPI+Commits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI+Commits.swift; sourceTree = "<group>"; };
+		DA40000A2A00000100000001 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA40000C2A00000100000001 /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
+		DA40000E2A00000100000001 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
+		DA4000102A00000100000001 /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		DA4000122A00000100000001 /* ZipManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipManagerView.swift; sourceTree = "<group>"; };
+		DA4000142A00000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4000152A00000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* END PBXFileReference */
+
+/* BEGIN PBXFrameworksBuildPhase */
+		DA4000162A00000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* END PBXFrameworksBuildPhase */
+
+/* BEGIN PBXGroup */
+		DA4000172A00000100000001 = {
+			isa = PBXGroup;
+			children = (
+				DA4000182A00000100000001 /* GitHubManagerApp */,
+				DA4000192A00000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4000182A00000100000001 /* GitHubManagerApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA4000202A00000100000001 /* App */,
+				DA4000212A00000100000001 /* Models */,
+				DA4000222A00000100000001 /* Services */,
+				DA4000232A00000100000001 /* Views */,
+				DA4000142A00000100000001 /* Assets.xcassets */,
+				DA4000152A00000100000001 /* Info.plist */,
+			);
+			path = GitHubManagerApp;
+			sourceTree = "<group>";
+		};
+		DA4000202A00000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DA4000022A00000100000001 /* GitHubManagerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DA4000212A00000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA4000042A00000100000001 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA4000222A00000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DA4000062A00000100000001 /* GitHubAPI.swift */,
+				DA4000082A00000100000001 /* GitHubAPI+Commits.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DA4000232A00000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA40000A2A00000100000001 /* LoginView.swift */,
+				DA40000C2A00000100000001 /* RepoListView.swift */,
+				DA40000E2A00000100000001 /* RepoDetailView.swift */,
+				DA4000102A00000100000001 /* CodeEditorView.swift */,
+				DA4000122A00000100000001 /* ZipManagerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA4000192A00000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA40001A2A00000100000001 /* GitHubManagerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* END PBXGroup */
+
+/* BEGIN PBXNativeTarget */
+		DA40001B2A00000100000001 /* GitHubManagerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA40001C2A00000100000001 /* Build configuration list for PBXNativeTarget "GitHubManagerApp" */;
+			buildPhases = (
+				DA40001D2A00000100000001 /* Sources */,
+				DA4000162A00000100000001 /* Frameworks */,
+				DA40001E2A00000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubManagerApp;
+			productName = GitHubManagerApp;
+			productReference = DA40001A2A00000100000001 /* GitHubManagerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* END PBXNativeTarget */
+
+/* BEGIN PBXProject */
+		DA40001F2A00000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DA40001B2A00000100000001 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = DA4000242A00000100000001 /* Build configuration list for PBXProject "GitHubManagerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4000172A00000100000001;
+			productRefGroup = DA4000192A00000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA40001B2A00000100000001 /* GitHubManagerApp */,
+			);
+		};
+/* END PBXProject */
+
+/* BEGIN PBXResourcesBuildPhase */
+		DA40001E2A00000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4000132A00000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* END PBXResourcesBuildPhase */
+
+/* BEGIN PBXSourcesBuildPhase */
+		DA40001D2A00000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4000012A00000100000001 /* GitHubManagerApp.swift in Sources */,
+				DA4000032A00000100000001 /* Models.swift in Sources */,
+				DA4000052A00000100000001 /* GitHubAPI.swift in Sources */,
+				DA4000072A00000100000001 /* GitHubAPI+Commits.swift in Sources */,
+				DA4000092A00000100000001 /* LoginView.swift in Sources */,
+				DA40000B2A00000100000001 /* RepoListView.swift in Sources */,
+				DA40000D2A00000100000001 /* RepoDetailView.swift in Sources */,
+				DA40000F2A00000100000001 /* CodeEditorView.swift in Sources */,
+				DA4000112A00000100000001 /* ZipManagerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* END PBXSourcesBuildPhase */
+
+/* BEGIN XCBuildConfiguration */
+		DA4000252A00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA4000262A00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4000272A00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitHubManagerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.9r7n.GitHubManagerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4000282A00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitHubManagerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.9r7n.GitHubManagerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* END XCBuildConfiguration */
+
+/* BEGIN XCConfigurationList */
+		DA40001C2A00000100000001 /* Build configuration list for PBXNativeTarget "GitHubManagerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4000272A00000100000001 /* Debug */,
+				DA4000282A00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4000242A00000100000001 /* Build configuration list for PBXProject "GitHubManagerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4000252A00000100000001 /* Debug */,
+				DA4000262A00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* END XCConfigurationList */
+	};
+	rootObject = DA40001F2A00000100000001 /* Project object */;
+}
