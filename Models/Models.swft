@@ -1,0 +1,38 @@
+import Foundation
+
+struct Repository: Codable, Identifiable {
+    let id: Int
+    let name: String
+    let fullName: String
+    let description: String?
+    let defaultBranch: String
+    let privateRepo: Bool
+
+    enum CodingKeys: String, CodingKey {
+        case id, name, description
+        case fullName = "full_name"
+        case defaultBranch = "default_branch"
+        case privateRepo = "private"
+    }
+}
+
+struct RepoContent: Codable, Identifiable {
+    let name: String
+    let path: String
+    let sha: String
+    let size: Int
+    let url: String
+    let htmlUrl: String
+    let gitUrl: String
+    let downloadUrl: String?
+    let type: String // "file" or "dir"
+    
+    var id: String { sha }
+
+    enum CodingKeys: String, CodingKey {
+        case name, path, sha, size, url, type
+        case htmlUrl = "html_url"
+        case gitUrl = "git_url"
+        case downloadUrl = "download_url"
+    }
+}
